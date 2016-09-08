@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7DF5F6321D81E6470033E5C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F6311D81E6470033E5C7 /* main.m */; };
+		7DF5F63A1D81E6C10033E5C7 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F6391D81E6C10033E5C7 /* Doctor.m */; };
+		7DF5F63D1D81E7130033E5C7 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F63C1D81E7130033E5C7 /* Patient.m */; };
+		7DF5F6401D81F6B80033E5C7 /* ExchangeInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F63F1D81F6B80033E5C7 /* ExchangeInput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		7DF5F62E1D81E6470033E5C7 /* Patient & Doctor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Patient & Doctor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF5F6311D81E6470033E5C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF5F6381D81E6C10033E5C7 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Doctor.h; path = ../Doctor.h; sourceTree = "<group>"; };
+		7DF5F6391D81E6C10033E5C7 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Doctor.m; path = ../Doctor.m; sourceTree = "<group>"; };
+		7DF5F63B1D81E7130033E5C7 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		7DF5F63C1D81E7130033E5C7 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		7DF5F63E1D81F6B80033E5C7 /* ExchangeInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeInput.h; sourceTree = "<group>"; };
+		7DF5F63F1D81F6B80033E5C7 /* ExchangeInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeInput.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				7DF5F6311D81E6470033E5C7 /* main.m */,
+				7DF5F63B1D81E7130033E5C7 /* Patient.h */,
+				7DF5F63C1D81E7130033E5C7 /* Patient.m */,
+				7DF5F6381D81E6C10033E5C7 /* Doctor.h */,
+				7DF5F6391D81E6C10033E5C7 /* Doctor.m */,
+				7DF5F63E1D81F6B80033E5C7 /* ExchangeInput.h */,
+				7DF5F63F1D81F6B80033E5C7 /* ExchangeInput.m */,
 			);
 			path = "Patient & Doctor";
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF5F63D1D81E7130033E5C7 /* Patient.m in Sources */,
+				7DF5F6401D81F6B80033E5C7 /* ExchangeInput.m in Sources */,
+				7DF5F63A1D81E6C10033E5C7 /* Doctor.m in Sources */,
 				7DF5F6321D81E6470033E5C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
